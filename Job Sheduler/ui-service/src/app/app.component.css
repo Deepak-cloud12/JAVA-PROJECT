@@ -1,0 +1,10 @@
+.center-container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .center-container h1 {
+    margin-bottom: 20px;
+  }
+  

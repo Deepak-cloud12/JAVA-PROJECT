@@ -1,0 +1,19 @@
+<mat-card>
+    <mat-card-title>Submit a New Job</mat-card-title>
+    <mat-card-content>
+      <form (ngSubmit)="submitJob()">
+        <mat-form-field appearance="fill">
+          <mat-label>Job Name</mat-label>
+          <input matInput [(ngModel)]="job.name" name="jobName" required>
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+          <mat-label>Duration (ms)</mat-label>
+          <input matInput type="number" [(ngModel)]="job.duration" name="jobDuration" required>
+        </mat-form-field>
+        <div>
+        <button mat-raised-button color="primary" type="submit">Submit</button>
+        </div>
+      </form>
+    </mat-card-content>
+  </mat-card>
+  

@@ -1,0 +1,13 @@
+.margin-button{
+    margin-right: 444px !important;
+}
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%; /* Adjust if needed */
+    padding: 20px; /* Adjust if needed */
+  }
+  
